@@ -9,6 +9,6 @@ jobs:
     uses: udayach123/roboshop-github-actions/.github/workflows/ci-main.yml@main
     with:
       appType: 'angular'
-#      appName: 'frontend'
-#    secrets:
-#      vault_token: ${{ secrets.vault_token }}
+      appName: 'frontend'
+    secrets:
+      vault_token: ${{ secrets.vault_token }}
