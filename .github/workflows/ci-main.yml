@@ -11,4 +11,4 @@ jobs:
       appType: 'angular'
       appName: 'frontend'
     secrets:
-      vault_token: ${{ secrets.vault_token }}
+      vault_token: ${{ secrets.azuresecrets }}
