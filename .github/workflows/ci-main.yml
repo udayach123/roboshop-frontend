@@ -12,3 +12,4 @@ jobs:
       appName: 'frontend'
     secrets:
       azuresecrets: ${{ secrets.azuresecrets }}
+#
