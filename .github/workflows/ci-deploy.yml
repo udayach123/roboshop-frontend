@@ -1,4 +1,4 @@
-name: Catalogue-Deploy
+name: Frontend-Deploy
 on:
   workflow_dispatch:
   push:
